@@ -314,7 +314,7 @@ nav.container .menu-icon{
         /* padding-top: 150px; */
         height: auto;
         flex-direction: column;
-        justify-content: space-between;
+        /* justify-content: space-between; */
 
     }
     .main .info{
