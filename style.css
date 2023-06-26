@@ -603,6 +603,8 @@ form .send-msg{
     form input,form textarea{
 
         /* margin:auto ; */
+        padding:10px 20px;
+        margin:15px 0;
         width: 350px;
     }
 
