@@ -610,7 +610,7 @@ form .send-msg{
 }
 @media (max-width:771px) {
     form {
-        width:75%;
+        width:60%;
 
     }
     form input,form textarea{
