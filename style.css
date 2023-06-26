@@ -601,22 +601,14 @@ form .send-msg{
 
 @media (max-width:991px) {
     form input,form textarea{
-        /* width:80%;
-        margin:auto */
+
+        margin:auto ;
         width: 350px;
     }
 
     
 }
-@media (max-width:991px) {
-    form input,form textarea{
-        /* width:80%;
-        margin:auto */
-        width: 350px;
-    }
 
-    
-}
 
 
 
