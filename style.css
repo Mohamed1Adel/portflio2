@@ -613,6 +613,10 @@ form .send-msg{
         width:75%;
 
     }
+    form input,form textarea{
+        width:100%;
+
+    }
 
     
 }
