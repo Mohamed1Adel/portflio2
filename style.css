@@ -608,19 +608,6 @@ form .send-msg{
 
     
 }
-@media (max-width:771px) {
-    form {
-        width:75%;
-
-    }
-    form input,form textarea{
-        margin:auto;
-        width:250px;
-
-    }
-
-    
-}
 
 
 
