@@ -602,7 +602,7 @@ form .send-msg{
 @media (max-width:991px) {
     form input,form textarea{
 
-        margin:auto ;
+        /* margin:auto ; */
         width: 350px;
     }
 
