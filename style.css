@@ -342,7 +342,7 @@ nav.container .menu-icon{
 
 /* start abut section  */
 
-.about,.works{
+.about,.works,.services,.projects{
     /* margin-top:150px; */
     padding-top:30px;
     padding-bottom:30px;
@@ -483,9 +483,64 @@ background-color: lightseagreen;
 
 
 
+/* start services section  */
+.services .container{
+    /* margin-bottom: 220px; */
+}
+.services .card{
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+    position: relative;
+    
+}
+.services .card .accordion{
+    /* position: absolute;
+    bottom:0;
+    left:0;
+    width:100% */
+    z-index: 9999;
+}
+.services .card .card-header{
+    text-align: center;
+}
+.services .card .card-header i{
+    color:#fff;
+    padding:30px;
+    margin:30px;
+    background-color: lightseagreen;
+    border-radius: 50%;
+
+font-size: 70px;
+}
+/* end services section  */
 
 
 
+
+/* start project section  */
+.projects{
+
+}
+.projects .conteiner{
+
+}
+.projects .card{
+    text-align: center;
+}
+
+.projects .card .project .project-img img{
+    width:90%;
+    /* margin-left:5%; */
+
+} 
+
+/* end project section  */
 
 
 
@@ -494,6 +549,11 @@ background-color: lightseagreen;
 
 
 /* start footer  */
+/* footer{
+    position: absolute;
+    bottom:0;
+    left:0
+} */
 form{
     position: relative;
     display: flex;
@@ -584,6 +644,16 @@ form .send-msg{
 }
 
 /* end footer  */
+
+
+
+
+
+
+
+
+
+
 
 
 

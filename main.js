@@ -93,13 +93,13 @@ window.addEventListener("scroll",()=>{
 
 // contact me 
 
-// const form = document.querySelector(".form");
+const form = document.querySelector(".form");
 
-// const sendMsg = document.querySelector(".send-msg");
+const sendMsg = document.querySelector(".send-msg");
 
-// form.addEventListener("submit",(e)=>{
-//     e.preventDefault()
-// })
+form.addEventListener("submit",(e)=>{
+    window.location.assign("/pages/thankyou.html")
+})
 
 
 
