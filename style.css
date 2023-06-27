@@ -383,6 +383,7 @@ nav.container .menu-icon {
 .skills-menu li .sklname {
   width: 105px;
 }
+
 .skills-menu li .progress {
   color: #fff;
   font-size: 16px;
@@ -396,11 +397,14 @@ nav.container .menu-icon {
   width: 75%;
   background-color: #9a9a9a;
 }
+@media (max-width: 767px) {
+  .skills-menu li .sklname,
+  .skills-menu li .progress {
+    font-size: 14px;
+  }
+}
 
 /* end abut section  */
-
-.cl {
-}
 
 /* start services section  */
 .services .container {
@@ -470,7 +474,7 @@ form input,
 form textarea {
   padding: 10px 20px;
   margin: 15px 0;
-  min-width: 400px;
+  max-width: 400px;
   /* height: 40px; */
   border: none;
   outline: none;
@@ -511,7 +515,7 @@ form .send-msg {
     /* margin:auto ; */
     padding: 10px 20px;
     margin: 15px 0;
-    width: 350px;
+    width: 300px;
   }
 }
 
