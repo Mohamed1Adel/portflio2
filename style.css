@@ -449,11 +449,35 @@ nav.container .menu-icon {
 }
 .projects .card {
   text-align: center;
+  background-color: #9db3b1;
 }
 
+.projects .card .project .project-name{
+  padding:20px;
+  font-size: 22px;
+  font-weight: 500;
+}
+.projects .card .project .project-img{
+
+}
 .projects .card .project .project-img img {
-  width: 90%;
+  width: 60%;
+  border-radius: 10px;
+  /* border:1px solid  */
   /* margin-left:5%; */
+  transition: transform 0.3s;
+  margin-bottom: 20px;
+
+}
+.projects .card .project .project-img:hover img{
+  transform: scale(1.1);
+}
+.projects .card .project .project-link{
+  padding:10px 20px
+  
+}
+.projects .card .project .project-link a{
+  text-decoration: none;
 }
 
 /* end project section  */
@@ -474,7 +498,7 @@ form input,
 form textarea {
   padding: 10px 20px;
   margin: 15px 0;
-  max-width: 400px;
+  width: 400px;
   /* height: 40px; */
   border: none;
   outline: none;
@@ -519,6 +543,19 @@ form .send-msg {
   }
 }
 
+.contact-me .contact-info{
+  text-align: center;
+  color:#fff
+}
+.socials{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.contact-me .contact-info h5{
+  padding:8px
+}
 .contact-me .social-media {
   height: 100%;
   display: flex;
