@@ -547,6 +547,11 @@ form .send-msg {
   text-align: center;
   color:#fff
 }
+@media (max-width:767px) {
+  .contact-me .contact-info h5{
+    font-size: 15px;
+  }
+}
 .socials{
   display: flex;
   flex-direction: column;
@@ -572,7 +577,7 @@ form .send-msg {
   }
 }
 .contact-me .social-media a i {
-  font-size: 60px;
+  font-size: 50px;
 }
 .contact-me .social-media a .fa-linkedin {
   color: lightskyblue;
@@ -581,7 +586,7 @@ form .send-msg {
   color: white;
 }
 .contact-me .social-media a .fa-facebook {
-  color: blue;
+  color: #4267B2;
 }
 .contact-me .social-media a .fa-instagram {
   color: rgb(255, 0, 191);
