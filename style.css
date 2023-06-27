@@ -192,7 +192,7 @@ nav.container .menu-icon{
     right: 0;
     top: 71px;
     background: #9a9a9a;
-    width: 35%;
+    width: 60%;
     height: calc(100vh - 71px);
     transform: translateX(100%);
     transition: all .7s;
@@ -455,6 +455,7 @@ background-color: lightseagreen;
 .skills-menu li .sklname{
     width:105px
 }
+
 .skills-menu li .progress{
     color:#fff;
     font-size: 16px;
@@ -465,8 +466,18 @@ background-color: lightseagreen;
 .rate{
     border-radius: 4px;
     margin-left:10px;
-    width:75%;
+    width:70%;
     background-color: #9a9a9a;
+}
+@media (max-width:767px) {
+    .skills-menu li .sklname{
+    font-size: 14px;
+}
+.skills-menu li .progress{
+
+    font-size: 14px;
+
+}
 }
 
 
@@ -548,6 +559,13 @@ font-size: 70px;
 
 
 
+
+
+
+
+
+
+
 /* start footer  */
 /* footer{
     position: absolute;
@@ -564,7 +582,7 @@ form input,form textarea{
 
     padding:10px 20px;
     margin:15px 0;
-    min-width: 400px;
+    max-width: 400px;
     /* height: 40px; */
     border:none;
     outline: none;
@@ -605,7 +623,7 @@ form .send-msg{
         /* margin:auto ; */
         padding:10px 20px;
         margin:15px 0;
-        width: 350px;
+        width: 300px;
     }
 
     
