@@ -1,66 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio</title>
+    <!-- AOS css animation  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- bootstrap 5  -->
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css"
+    />
+    <!-- anumation css  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Ubuntu:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome  -->
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/all.min.css"
+    />
+    <!-- custom css file  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-  <!-- AOS css animation  -->
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <!-- bootstrap 5  -->
-  <link rel="stylesheet" href="./bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
-  <!-- anumation css  -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <!-- google fonts  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <!-- font awesome  -->
-  <link rel="stylesheet" href="./fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/all.min.css" />
-  <!-- custom css file  -->
-  <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-
-  <div class="scroller"></div>
-  <!-- <h1 class="text-3xl font-bold underline text-clifford">
+  <body>
+    <div class="scroller"></div>
+    <!-- <h1 class="text-3xl font-bold underline text-clifford">
         Hello world!
       </h1> -->
 
-  <div class="nav-container">
-    <nav class="container d-flex justify-content-between align-items-center">
-      <h3 class="logo font-wight-600">
-        <a href="#" class="text-decoration-none text-light">Mohamed</a>
-      </h3>
-      <i class="fa-solid fa-bars menu-icon d-md-none"></i>
-      <ul class="d-flex justify-content-between align-items-center menu">
-        <li class="nav-item"><a href="#">Home</a></li>
-        <li class="nav-item"><a href="#about">About</a></li>
-        <li class="nav-item"><a href="#works">Works</a></li>
-        <li class="nav-item"><a href="#services">Services</a></li>
-        <li class="nav-item"><a href="#projects">Projects</a></li>
-        <li class="nav-item"><a href="#contacts">Contacts</a></li>
-      </ul>
-    </nav>
-  </div>
-  <div class="landing">
-    <div class="container" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
-      data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" data-aos-anchor-placement="top-center">
-      <section class="main">
-        <div class="info">
-          <h1>I'm <span class="name"></span></h1>
-          <button class="btn btn-primary contact" ><a href="#contacts" class="text-decoration-none text-white" >Contact Me</a></button>
-        </div>
-        <div class="personal-photo">
-          <img src="./assets/my-new-img.png" alt="" width="350" />
-        </div>
-      </section>
+    <div class="nav-container">
+      <nav class="container d-flex justify-content-between align-items-center">
+        <h3 class="logo font-wight-600">
+          <a href="#" class="text-decoration-none text-light">Mohamed</a>
+        </h3>
+        <i class="fa-solid fa-bars menu-icon d-md-none"></i>
+        <ul class="d-flex justify-content-between align-items-center menu">
+          <li class="nav-item"><a href="#">Home</a></li>
+          <li class="nav-item"><a href="#about">About</a></li>
+          <li class="nav-item"><a href="#works">Works</a></li>
+          <li class="nav-item"><a href="#services">Services</a></li>
+          <li class="nav-item"><a href="#projects">Projects</a></li>
+          <li class="nav-item"><a href="#contacts">Contacts</a></li>
+        </ul>
+      </nav>
     </div>
-    
-  </div>
-<section id="about" class="about" >
+    <div class="landing">
+      <div
+        class="container"
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"
+      >
+        <section class="main">
+          <div class="info">
+            <h1>I'm <span class="name"></span></h1>
+            <button class="btn btn-primary contact">
+              <a href="#contacts" class="text-decoration-none text-white"
+                >Contact Me</a
+              >
+            </button>
+          </div>
+          <div class="personal-photo">
+            <img src="./assets/my-new-img.png" alt="personal image" width="350" />
+          </div>
+        </section>
+      </div>
+    </div>
+    <section id="about" class="about">
       <div class="container">
         <div class="main-heading">
           <h1>About</h1>
@@ -70,24 +92,39 @@
             <div class="personal-info" class="container">
               <h1 class="text-center">Who I'm I</h1>
               <div class="info-card">
-                <img src="./assets/upperImg.png" alt="" class=" rounded-circle" width="200" />
+                <img
+                  src="./assets/upperImg.png"
+                  alt="personal image"
+                  class="rounded-circle"
+                  width="200"
+                />
                 <div class="info">
                   <h4 class="name">Mohamed Adel Mohamed</h4>
                   <p class="title">Frontend Delevoper</p>
                   <div class="dics">
                     <div class="graduated">
-                      <h4 class="grad-name ">Bachelor of management information systems</h4>
+                      <h4 class="grad-name">
+                        Bachelor of management information systems
+                      </h4>
                       <div class="grad-info">
-                        <span><i class="fa-regular fa-calendar-days"></i>September
-                          2017 - June 2021</span>
-                        <span><i class="fa-solid fa-location-dot"></i>EGI Academy - Cairo - Egypt</span>
-                        <span><i class="fa-solid fa-graduation-cap"></i> GPA : 3.0</span>
+                        <span
+                          ><i class="fa-regular fa-calendar-days"></i>September
+                          2017 - June 2021</span
+                        >
+                        <span
+                          ><i class="fa-solid fa-location-dot"></i>EGI Academy -
+                          Cairo - Egypt</span
+                        >
+                        <span
+                          ><i class="fa-solid fa-graduation-cap"></i> GPA :
+                          3.0</span
+                        >
                       </div>
                     </div>
-                    seeking a challenging and creative job where I can
-                    make the best use of my personal, communication and
-                    analyzing skills and deal with an active team in active job to
-                    gain more knowledge and experience.
+                    seeking a challenging and creative job where I can make the
+                    best use of my personal, communication and analyzing skills
+                    and deal with an active team in active job to gain more
+                    knowledge and experience.
                   </div>
                 </div>
               </div>
@@ -97,44 +134,84 @@
             <div class="skills">
               <h1 class="text-center">Skills</h1>
               <ul class="skills-menu">
-                <li class="skill"><span class="sklname">Html5 :</span>  <div class="rate">
-                    <div class="progress" style="width:80%" data-rate="80%"> 80%</div>
+                <li class="skill">
+                  <span class="sklname">Html5</span>
+                  <div class="rate">
+                    <div class="progress" style="width: 80%" data-rate="80%">
+                      80%
+                    </div>
                   </div>
                 </li>
-                <li class="skill"><span class="sklname">Css3 :</span> <div class="rate">
-                    <div class="progress" style="width:75%" data-rate="75%">75%</div>
+                <li class="skill">
+                  <span class="sklname">Css3</span>
+                  <div class="rate">
+                    <div class="progress" style="width: 75%" data-rate="75%">
+                      75%
+                    </div>
                   </div>
                 </li>
-                <li class="skill"><span class="sklname">BootStrap5 :</span><div class="rate">
-                    <div class="progress" style="width:60%" data-rate="60%">60%</div>
+                <li class="skill">
+                  <span class="sklname">BootStrap5</span>
+                  <div class="rate">
+                    <div class="progress" style="width: 60%" data-rate="60%">
+                      60%
+                    </div>
                   </div>
                 </li>
-                <li class="skill"><span class="sklname">Tailwind :</span> <div class="rate">
-                    <div class="progress" style="width:30%" data-rate="30%">30%</div>
+                <li class="skill">
+                  <span class="sklname">Tailwind</span>
+                  <div class="rate">
+                    <div class="progress" style="width: 30%" data-rate="30%">
+                      30%
+                    </div>
                   </div>
                 </li>
-                <li class="skill"><span class="sklname">JavaScript :</span> <div class="rate">
-                    <div class="progress" style="width:70%" data-rate="70%">70%</div>
+                <li class="skill">
+                  <span class="sklname">JavaScript</span>
+                  <div class="rate">
+                    <div class="progress" style="width: 70%" data-rate="70%">
+                      70%
+                    </div>
                   </div>
                 </li>
-                <li class="skill"><span class="sklname">Jquery :</span> <div class="rate">
-                    <div class="progress" style="width:50%" data-rate="50%">50%</div>
+                <li class="skill">
+                  <span class="sklname">Jquery</span>
+                  <div class="rate">
+                    <div class="progress" style="width: 50%" data-rate="50%">
+                      50%
+                    </div>
                   </div>
                 </li>
-                <li class="skill"><span class="sklname">Angular :</span> <div class="rate">
-                    <div class="progress" style="width:70%" data-rate="70%">70%</div>
+                <li class="skill">
+                  <span class="sklname">Angular</span>
+                  <div class="rate">
+                    <div class="progress" style="width: 70%" data-rate="70%">
+                      70%
+                    </div>
                   </div>
                 </li>
-                <li class="skill"><span class="sklname">React Basics</span> <div class="rate">
-                    <div class="progress" style="width:40%" data-rate="40%">40%</div>
+                <li class="skill">
+                  <span class="sklname">React Basics</span>
+                  <div class="rate">
+                    <div class="progress" style="width: 40%" data-rate="40%">
+                      40%
+                    </div>
                   </div>
                 </li>
-                <li class="skill"><span class="sklname">Rest Api's :</span> <div class="rate">
-                    <div class="progress" style="width:80%" data-rate="80%">80%</div>
+                <li class="skill">
+                  <span class="sklname">Rest Api's</span>
+                  <div class="rate">
+                    <div class="progress" style="width: 80%" data-rate="80%">
+                      80%
+                    </div>
                   </div>
                 </li>
-                <li class="skill"><span class="sklname">Git & Github :</span> <div class="rate">
-                    <div class="progress" style="width:60%" data-rate="60%">60%</div>
+                <li class="skill">
+                  <span class="sklname">Git & Github</span>
+                  <div class="rate">
+                    <div class="progress" style="width: 60%" data-rate="60%">
+                      60%
+                    </div>
                   </div>
                 </li>
               </ul>
@@ -144,7 +221,7 @@
       </div>
     </section>
 
-    <section id="works" class="works" >
+    <section id="works" class="works">
       <div class="container">
         <div class="main-heading">
           <h1>Works</h1>
@@ -153,21 +230,19 @@
           <div class="row mb-4">
             <div class="card">
               <div class="card-header fw-bold">
-               work at The Arab Corporation for Electric Elevators
+                work at The Arab Corporation for Electric Elevators
               </div>
               <div class="card-body">
                 <blockquote class="blockquote mb-0">
                   <p>Title : Elevator technician</p>
-                  <footer >Date : From September 2014 - To August 2019</footer>
+                  <footer>Date : From September 2014 - To August 2019</footer>
                 </blockquote>
               </div>
             </div>
           </div>
           <div class="row mb-4">
             <div class="card">
-              <div class="card-header fw-bold">
-               work at Vodafone EG 
-              </div>
+              <div class="card-header fw-bold">work at Vodafone EG</div>
               <div class="card-body">
                 <blockquote class="blockquote mb-0">
                   <p>Title : Customer care</p>
@@ -184,7 +259,7 @@
               <div class="card-body">
                 <blockquote class="blockquote mb-0">
                   <p>Title : Sales Supervisor</p>
-                  <footer >Date : From November 2019 - To Abril 2020</footer>
+                  <footer>Date : From November 2019 - To Abril 2020</footer>
                 </blockquote>
               </div>
             </div>
@@ -197,20 +272,18 @@
               <div class="card-body">
                 <blockquote class="blockquote mb-0">
                   <p>Title : Branch sales agent</p>
-                  <footer >Date : From May 2020 - To June 2021</footer>
+                  <footer>Date : From May 2020 - To June 2021</footer>
                 </blockquote>
               </div>
             </div>
           </div>
           <div class="row mb-4">
             <div class="card">
-              <div class="card-header fw-bold">
-                work at Safe Elevator
-              </div>
+              <div class="card-header fw-bold">work at Safe Elevator</div>
               <div class="card-body">
                 <blockquote class="blockquote mb-0">
                   <p>Title : Engineer assistant</p>
-                  <footer >Date : From June 2021 - till now</footer>
+                  <footer>Date : From June 2021 - till now</footer>
                 </blockquote>
               </div>
             </div>
@@ -224,79 +297,138 @@
         <div class="main-heading">
           <h1>Services</h1>
         </div>
-        
+
         <div class="row">
           <div class="col-12 col-md-6 col-lg-4">
-              <div class="card">
-                <div class="card-header">
-                  <i class="fa-solid fa-code"></i><br/>
-                  <h4>Web Design</h4>
-                </div>
-                <div class="card-content">
-                  <div class="accordion accordion-flush" id="accordionFlushExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingOne">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                          Read more...
-                        </button>
-                      </h2>
-                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate deleniti reiciendis quos perferendis, dolorem eius maiores blanditiis vel quas. Nisi error dolorum labore tempore perspiciatis ea, saepe excepturi consectetur commodi!</div>
+            <div class="card">
+              <div class="card-header">
+                <i class="fa-solid fa-code"></i><br />
+                <h4>Web Design</h4>
+              </div>
+              <div class="card-content">
+                <div
+                  class="accordion accordion-flush"
+                  id="accordionFlushExample"
+                >
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseOne"
+                      >
+                        Read more...
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseOne"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingOne"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Cupiditate deleniti reiciendis quos perferendis, dolorem
+                        eius maiores blanditiis vel quas. Nisi error dolorum
+                        labore tempore perspiciatis ea, saepe excepturi
+                        consectetur commodi!
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
           </div>
-          
+
           <div class="col-12 col-md-6 col-lg-4">
-              <div class="card">
-                <div class="card-header">
-                  <i class="fa-solid fa-pen"></i><br/>
-                  <h4>Document Writing</h4>
-                </div>
-                <div class="card-content">
-                  <div class="accordion accordion-flush" id="accordionFlushExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                          Read more...
-                        </button>
-                      </h2>
-                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ratione consequuntur fugiat accusamus minus, blanditiis dolor in mollitia, praesentium culpa expedita error quas sit reprehenderit maiores suscipit cupiditate ullam illo.
-                        </div>
+            <div class="card">
+              <div class="card-header">
+                <i class="fa-solid fa-pen"></i><br />
+                <h4>Document Writing</h4>
+              </div>
+              <div class="card-content">
+                <div
+                  class="accordion accordion-flush"
+                  id="accordionFlushExample"
+                >
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseTwo"
+                      >
+                        Read more...
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseTwo"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingTwo"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Impedit ratione consequuntur fugiat accusamus minus,
+                        blanditiis dolor in mollitia, praesentium culpa expedita
+                        error quas sit reprehenderit maiores suscipit cupiditate
+                        ullam illo.
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
           </div>
-          
+
           <div class="col-12 col-md-6 col-lg-4">
-              <div class="card">
-                <div class="card-header">
-                  <i class="fa-solid fa-wand-magic-sparkles"></i><br/>
-                  <h4>Video Editing</h4>
-                </div>
-                <div class="card-content">
-                  <div class="accordion accordion-flush" id="accordionFlushExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                          Read more...
-                        </button>
-                      </h2>
-                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse cupiditate a ut in reiciendis ullam harum voluptates aspernatur neque illum. Saepe molestias nulla debitis error temporibus recusandae cum maxime unde?</div>
+            <div class="card">
+              <div class="card-header">
+                <i class="fa-solid fa-wand-magic-sparkles"></i><br />
+                <h4>Video Editing</h4>
+              </div>
+              <div class="card-content">
+                <div
+                  class="accordion accordion-flush"
+                  id="accordionFlushExample"
+                >
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseThree"
+                      >
+                        Read more...
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseThree"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingThree"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Esse cupiditate a ut in reiciendis ullam harum
+                        voluptates aspernatur neque illum. Saepe molestias nulla
+                        debitis error temporibus recusandae cum maxime unde?
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
           </div>
-          
         </div>
       </div>
     </section>
@@ -306,8 +438,8 @@
         <div class="main-heading">
           <h1>Projects</h1>
         </div>
-        <div class="row">
-          <div class="col-12 col-md-6 col-lg-3 mb-4">
+        <div class="row projects-row">
+          <!-- <div class="col-12 col-md-6 col-lg-3 mb-4">
             <div class="card ">
               <div class="project ">
                 <div class="project-name">
@@ -324,8 +456,8 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3 mb-4">
+          </div> -->
+          <!-- <div class="col-12 col-md-6 col-lg-3 mb-4">
             <div class="card">
               <div class="project">
                 <div class="project-name">
@@ -450,16 +582,10 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
-
-
-
-
-
-
 
     <footer id="contacts" class="contact-me mt-5">
       <div class="container">
@@ -475,45 +601,86 @@
               <textarea name="message" placeholder="Enter Your Message" required></textarea>
               <button type="submit" class="btn btn-success send-msg">Send</button>
             </form> -->
-            <form id="contactform" action="https://formsubmit.io/send/mohamedqwe542@gmail.com" method="POST">
-              <input name="name" type="text" id="name" placeholder="Enter Your Name" required >
-              <input name="email" type="email" id="email" placeholder="Enter You Email" required>
-              <textarea name="comment" id="comment" rows="3" placeholder="Enter You Message"></textarea>
+            <form
+              id="contactform"
+              action="https://formsubmit.io/send/mohamedqwe542@gmail.com"
+              method="POST"
+            >
+              <input
+                name="name"
+                type="text"
+                id="name"
+                placeholder="Enter Your Name"
+                required
+              />
+              <input
+                name="email"
+                type="email"
+                id="email"
+                placeholder="Enter You Email"
+                required
+              />
+              <textarea
+                name="comment"
+                id="comment"
+                rows="3"
+                placeholder="Enter You Message"
+              ></textarea>
               <!-- <input type="hidden" name="_next" value="https://mohamed1adel.github.io/portflio2/pages/thankyou.html"> -->
-              <input name="_formsubmit_id" type="text" style="display:none">
+              <input name="_formsubmit_id" type="text" style="display: none" />
               <!-- <input value="Send" type="submit" class="btn btn-success send-msg"> -->
-              <button type="submit" class="btn btn-success send-msg">Send</button>
-          </form>
-        </div>
-        <div class="col-12 col-lg-6 col-md-6 socials">
-          <h3 class="text-center text-white mb-4">Connect with me on social media</h3>
-          
-          <div class="social-media">
-             <a href="https://www.linkedin.com/in/mohamed-adel-a57b34260/" target="_blank"><i class="fa-brands fa-linkedin"></i></a> 
-             <a href="https://github.com/Mohamed1Adel" target="_blank"><i class="fa-brands fa-github"></i></a> 
-             <a href="https://web.facebook.com/profile.php?id=100004836018384" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-             <a href="https://www.instagram.com/mohamedadel6300/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-
+              <button type="submit" class="btn btn-success send-msg">
+                Send
+              </button>
+            </form>
+          </div>
+          <div class="col-12 col-lg-6 col-md-6 socials">
+            <div class="contact-info">
+              <h5>Phone Number: 01551563900</h5>
+              <h5>Anuthr Phone Number: 01556040246</h5>
+              <h5>Gmail : mohamedqwe542@gmail.com</h5>
+            </div>
+            <div>
+              <h3 class="text-center text-white mb-4">
+                Connect with me on social media
+              </h3>
+              <div class="social-media">
+                <a
+                  href="https://www.linkedin.com/in/mohamed-adel-a57b34260/"
+                  target="_blank"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+                <a href="https://github.com/Mohamed1Adel" target="_blank"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+                <a
+                  href="https://web.facebook.com/profile.php?id=100004836018384"
+                  target="_blank"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+                <a
+                  href="https://www.instagram.com/mohamedadel6300/"
+                  target="_blank"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </div>
+            </div>
           </div>
         </div>
-
       </div>
-      </div>
-      
     </footer>
 
-
-
-  <button class="to-top btn btn-primary">To Top <i class="fa-solid fa-arrow-up-long"></i></button>
-  <!-- AOS js animation  -->
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
+    <button class="to-top btn btn-primary">
+      To Top <i class="fa-solid fa-arrow-up-long"></i>
+    </button>
+    <!-- AOS js animation  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
       // AOS.fade - up();
-  </script>
-  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-  <script src="./bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
-  <script src="main.js"></script>
-</body>
-
+    </script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="./bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+  </body>
 </html>
