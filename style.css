@@ -153,7 +153,7 @@ nav.container .menu-icon {
     right: 0;
     top: 71px;
     background: #9a9a9a;
-    width: 35%;
+    width: 50%;
     height: calc(100vh - 71px);
     transform: translateX(100%);
     transition: all 0.7s;
