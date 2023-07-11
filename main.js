@@ -1,20 +1,9 @@
-(function () {
-  console.log(window.innerHeight);
-})();
-
 const title = document.querySelector(".title");
-
 let typed1 = new Typed(".name", {
   strings: ["Mohamed Adel <br /> Frontend Developer"],
   typeSpeed: 100,
   looped: true,
 });
-// let typed2 = new Typed(".title",{
-//     strings:["Frontend Developer"],
-//     typeSpeed:100,
-//     looped:false
-
-// })
 
 // side menu
 
@@ -28,7 +17,6 @@ menuIcon.addEventListener("click", (e) => {
 });
 
 // back to top button
-
 const toTop = document.querySelector(".to-top");
 
 // side prigress
@@ -38,7 +26,6 @@ let height =
   document.documentElement.scrollHeight - document.documentElement.clientHeight;
 
 window.addEventListener("scroll", () => {
-  // console.log(this.scrollY)
   let scrollTop = document.documentElement.scrollTop;
   el.style.width = `${(scrollTop / height) * 100}%`;
 
@@ -58,29 +45,17 @@ window.addEventListener("scroll", () => {
 // contact me
 
 const form = document.querySelector(".form");
-
 const sendMsg = document.querySelector(".send-msg");
-
-// form.addEventListener("submit",(e)=>{
-//     window.location.assign("/pages/thankyou.html")
-// })
 
 // get repos
 
 let projectsSec = document.querySelector(".projects-row");
-// projectsSec.appendChild
-// console.log(projectsSec)
 
 const request = new XMLHttpRequest();
 request.open("GET", "https://api.github.com/users/Mohamed1Adel/repos");
 request.send();
-console.log(request);
-
 request.onreadystatechange = function () {
-  // console.log(request.readyState)
-  // console.log(request.status)
   if (this.readyState === 4 && this.status === 200) {
-    // console.log(this.responseText);
     const data = JSON.parse(this.responseText);
     console.log(data);
     for (let i = 0; i < data.length; i++) {
