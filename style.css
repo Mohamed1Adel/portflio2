@@ -8,7 +8,7 @@ body {
   position: relative;
   font-family: "Poppins", sans-serif;
   background: #1b292e;
-  height: 2000px;
+  /* height: 2000px; */
 }
 .scroller {
   position: fixed;
