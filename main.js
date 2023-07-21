@@ -63,9 +63,9 @@ request.onreadystatechange = function () {
             <div class="col-12 col-md-6 col-lg-3 mb-4">
             <div class="card ">
               <div class="project ">
-                <div class="project-name">
+                <h6 class="project-name">
                   ${data[i].name}
-                </div>
+                </h6>
                 <div class="project-img">
                   <img src="${data[i].owner.avatar_url}" alt="project photo">
                 </div>

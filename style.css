@@ -395,7 +395,7 @@ nav.container .menu-icon {
 
 .projects .card .project .project-name {
   padding: 20px;
-  font-size: 22px;
+  /* font-size: 22px; */
   font-weight: 500;
 }
 .projects .card .project .project-img {
