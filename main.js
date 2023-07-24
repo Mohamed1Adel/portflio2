@@ -49,36 +49,36 @@ const sendMsg = document.querySelector(".send-msg");
 
 // get repos
 
-let projectsSec = document.querySelector(".projects-row");
+// let projectsSec = document.querySelector(".projects-row");
 
-const request = new XMLHttpRequest();
-request.open("GET", "https://api.github.com/users/Mohamed1Adel/repos");
-request.send();
-request.onreadystatechange = function () {
-  if (this.readyState === 4 && this.status === 200) {
-    const data = JSON.parse(this.responseText);
-    console.log(data);
-    for (let i = 0; i < data.length; i++) {
-      let project = `
-            <div class="col-12 col-md-6 col-lg-3 mb-4">
-            <div class="card ">
-              <div class="project ">
-                <h6 class="project-name">
-                  ${data[i].name}
-                </h6>
-                <div class="project-img">
-                  <img src="${data[i].owner.avatar_url}" alt="project photo">
-                </div>
-                <div class="project-disc">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </div>
-                <div class="project-link">
-                  <a href=${data[i].svn_url} target="_blank">Look at project</a>
-                </div>
-              </div>
-            </div>
-          </div>`;
-      projectsSec.innerHTML += project;
-    }
-  }
-};
+// const request = new XMLHttpRequest();
+// request.open("GET", "https://api.github.com/users/Mohamed1Adel/repos");
+// request.send();
+// request.onreadystatechange = function () {
+//   if (this.readyState === 4 && this.status === 200) {
+//     const data = JSON.parse(this.responseText);
+//     console.log(data);
+//     for (let i = 0; i < data.length; i++) {
+//       let project = `
+//             <div class="col-12 col-md-6 col-lg-3 mb-4">
+//             <div class="card ">
+//               <div class="project ">
+//                 <h6 class="project-name">
+//                   ${data[i].name}
+//                 </h6>
+//                 <div class="project-img">
+//                   <img src="${data[i].owner.avatar_url}" alt="project photo">
+//                 </div>
+//                 <div class="project-disc">
+//                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
+//                 </div>
+//                 <div class="project-link">
+//                   <a href=${data[i].svn_url} target="_blank">Look at project</a>
+//                 </div>
+//               </div>
+//             </div>
+//           </div>`;
+//       projectsSec.innerHTML += project;
+//     }
+//   }
+// };
